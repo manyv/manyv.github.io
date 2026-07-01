@@ -1,0 +1,23 @@
+#aside-content .card-tags .card-tag-cloud {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+  padding: 0;
+}
+
+#aside-content .card-tags .card-tag-cloud a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 3px 10px;
+  color: var(--font-color) !important;
+  font-size: 0.95rem !important;
+  line-height: 1.5;
+  text-decoration: none;
+  transition: all 0.4s;
+}
+
+#aside-content .card-tags .card-tag-cloud a:hover {
+  padding: 3px 17px;
+  background-color: var(--text-bg-hover);
+}
